@@ -65,9 +65,18 @@ body {
 }
 
 .social-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
 }
 
 .buttons {
@@ -140,8 +149,8 @@ body {
   background: #f8f9fa;
 }
 
-#nossos-servicos{
-    background:#f5f7fa;
+#nossos-servicos {
+  background: #f5f7fa;
 }
 
 .sobre-container {
@@ -244,4 +253,66 @@ body {
 .card-servico h3 {
   margin-bottom: 20px;
   color: #0a5fd8;
+}
+
+#contato {
+  padding: 80px 10%;
+  background: #f8f9fa;
+}
+
+#contato h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #052d65;
+
+}
+
+.contato-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contato-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  background: #ffff;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato-container img {
+  width: 32px;
+  height: 32px;
+}
+
+footer{
+    background:#052d65;
+    color:white;
+    margin-top:80px;
+}
+
+.footer-content{
+    padding:50px 10%;
+    text-align:center;
+}
+
+.footer-content h3{
+    margin-bottom:15px;
+}
+
+.footer-content p{
+    margin-bottom:10px;
+}
+
+.footer-copy{
+    text-align:center;
+    padding:20px;
+    background:#041f45;
+    font-size:0.9rem;
 }
