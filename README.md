@@ -11,7 +11,7 @@ O projeto foi construído para ser leve, de carregamento rápido e total respons
 *   **HTML5** (Estrutura semântica)
 *   **CSS3** (Estilização moderna e layout responsivo)
 *   **JavaScript** (Interatividade e dinamismo)
-*   **Hospedagem:** [Vercel](https://vercel.com/)
+*   **Hospedagem:** [Vercel](https://rr-caca-vazamentos.vercel.app/)
 
 ---
 
